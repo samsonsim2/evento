@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const page = () => {
-  return (
-    <div>
-      event
-    </div>
-  )
-}
+  return <div>eventdsada</div>;
+};
 
-export default page
+export default page;
