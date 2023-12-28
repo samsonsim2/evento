@@ -1,13 +1,21 @@
-import React from 'react'
+import { cn } from "@/lib/utils";
+import React from "react";
+import { twMerge } from "tailwind-merge";
 type H1Props = {
-    children:React.ReactNode
-}
-const H1 = ({children}:H1Props) => {
+  children: React.ReactNode;
+  className?: string;
+};
+const H1 = ({ children, className }: H1Props) => {
   return (
-    <h1 className="text-3xl lg:text-6xl font-bold tracking-tight">
-   {children}
-  </h1>
-  )
-}
+    <h1
+      className={cn(
+        "text-3xl m-10 lg:text-6xl font-bold tracking-tight",
+        className
+      )}
+    >
+      {children}
+    </h1>
+  );
+};
 
-export default H1
+export default H1;
