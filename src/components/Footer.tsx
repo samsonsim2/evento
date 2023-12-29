@@ -19,8 +19,8 @@ const Footer = () => {
       <ul className='flex gap-x-3 sm:gap-x-8'>
       {routes.map((route,index)=>{
         return (
-        <li>
-          <Link key={index} href={route.path}>{route.name}</Link>
+        <li key={index} >
+          <Link href={route.path}>{route.name}</Link>
         </li>
         )
       })}
