@@ -1,4 +1,4 @@
-import H1 from "@/components/h1";
+import H1 from "@/components/H1";
 import { getEvent } from "@/lib/utils";
 import { Metadata } from "next";
 import Image from "next/image";

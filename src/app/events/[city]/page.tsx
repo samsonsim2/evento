@@ -1,5 +1,5 @@
 import EventsList from "@/components/EventsList";
-import H1 from "@/components/h1";
+import H1 from "@/components/H1";
 import { EventoEvent } from "@prisma/client";
 import React, { Suspense, useEffect } from "react";
 import Loading from "./loading";

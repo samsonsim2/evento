@@ -1,5 +1,5 @@
 import Searchform from "@/components/SearchForm";
-import H1 from "@/components/h1";
+import H1 from "@/components/H1";
 import Image from "next/image";
 import Link from "next/link";
 
