@@ -17,10 +17,10 @@ const Footer = () => {
     <div className='mt-auto flex justify-between items-center h-16 px-3 sm:px-9 text-xs text-white/25 border-t border-white/50'>
       <small className='text-xs'>copyright 2060 Bytegrad</small>
       <ul className='flex gap-x-3 sm:gap-x-8'>
-      {routes.map((route)=>{
+      {routes.map((route,index)=>{
         return (
         <li>
-          <Link key={route.name} href={route.path}>{route.name}</Link>
+          <Link key={index} href={route.path}>{route.name}</Link>
         </li>
         )
       })}
