@@ -20,7 +20,7 @@ const Footer = () => {
       {routes.map((route)=>{
         return (
         <li>
-          <Link href={route.path}>{route.name}</Link>
+          <Link key={route.name} href={route.path}>{route.name}</Link>
         </li>
         )
       })}
